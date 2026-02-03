@@ -1,0 +1,17 @@
+# web/api
+fastapi==0.111.0
+uvicorn==0.30.0
+mangum==0.17.0
+
+# pdf parsing
+pypdf==4.2.0
+
+# langchain stack (keep these in sync)
+langchain==1.2.7
+langchain-core==1.2.7
+langchain-community==0.4.1
+langchain-openai==1.1.7
+langchain-text-splitters==1.1.0
+
+# vector db + numeric stack
+chromadb>=0.5.4
